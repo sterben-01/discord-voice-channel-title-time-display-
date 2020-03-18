@@ -2,10 +2,10 @@ import discord
 import asyncio
 import datetime
 client = discord.Client()
-distoken = "" // token
+distoken = "" # token
 # These must all be Voice Channels
-timechannelUS = //channel ID
-timechannelCN = // channel ID
+timechannelUS = # channel ID
+timechannelCN = # channel ID
 @client.event
 async def on_ready():
    print('We have logged in as {0.user}'.format(client))
