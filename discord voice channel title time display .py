@@ -9,6 +9,7 @@ timechannelCN = # channel ID
 @client.event
 async def on_ready():
    print('We have logged in as {0.user}'.format(client))
+   await client.change_presence(activity=discord.Game(name='what you want to show')) # if you want show what bot is doing
    while True:
        now = datetime.datetime.now()
        NH = str(now.hour)
